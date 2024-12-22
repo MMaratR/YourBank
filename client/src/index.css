@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #191919;
+  color: #FFFFFF;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 800;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+span {
+  color: #CAFF33;
+}
+
+p {
+  opacity: 0.6;
+}
+
+.container {
+  width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image {
+  background-image: url('./images/fon.png');
+  background-repeat: no-repeat;
+}
+
+header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 1500px;
+  height: 80px;
+  background-color: #1C1C1C;
+
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 100px;
+}
+
+.header_list {
+  display: flex;
+}
+
+.header_button {
+  display: flex;
+}
+
+.header_list a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 80px;
+  height: 50px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+
+  transition: font-weight 0.4s;
+}
+
+.header_button a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 50px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+
+  transition: font-weight 0.4s;
+}
+
+.header_list a.active {
+  background-color: #262626;
+  border-radius: 100px;
+}
+
+.header_button a.active {
+  color: #000000;
+  background-color: #CAFF33;
+  border-radius: 100px;
+}
+
+.welcome_block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.welcome_text {
+  width: 750px;
+}
+
+.welcome_check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 360px;
+  height: 44px;
+
+  background-color: #262626;
+  border-radius: 100px;
+  opacity: 1;
+
+  margin-bottom: 20px;
+}
+
+.welcome_paragraph {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+a.welcome_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 63px;
+
+  color: #000000;
+  background-color: #CAFF33;
+  border-radius: 100px;
+
+  transition: font-weight 0.4s;
+}
+
+.products_title {
+  margin-bottom: 20px;
+}
+
+.products_block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+
+.list_products_block .vertical_line {
+  border-left: 1px solid #262626;
+  height: 291px;
+}
+
+.products_text {
+  width: 900px;
+}
+
+.products_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400;
+  height: 80;
+  background-color: #1C1C1C;
+  border-radius: 100px;
+}
+
+.products_list a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+
+  transition: font-weight 0.4s;
+}
+
+.products_list a.active {
+  color: #000000;
+  background-color: #CAFF33;
+  border-radius: 100px;
+}
+
+.list_product {
+  text-align: center;
+}
+
+.list_products_block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.list_products_block h2 {
+  margin-bottom: 20px;
+}
+
+.cases_text h1 {
+  margin-bottom: 20px;
+}
+
+.cases_text p {
+  margin-bottom: 50px;
+}
+
+.case_group_1 {
+  width: 620px;
+  height: 420px;
+  background-color: #1C1C1C;
+  background-image: url('./images/block_fon1.png');
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.case_flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.case {
+  text-align: center;
+  background-color: #1A1A1A;
+  width: 240px;
+  height: 140px;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.number {
+  font-size: 58px;
+  opacity: 1;
+}
+
+.case_numbers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.use_cases_block_1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.case_text_1 {
+  margin-left: 50px;
+}
+
+.case_numbers .vertical_line {
+  border-left: 1px solid #262626;
+  height: 150px;
+}
+
+.learn_more {
+  min-width: 150px;
+  min-height: 60px;
+  border-radius: 100px;
+  background-color: #1C1C1C;
+  padding: 20px;
+}
+
+.number_text {
+  text-align: center;
+}
+
+.case_text_2 {
+  margin-right: 50px;
+}
+
+.case_group_2 {
+  width: 620px;
+  height: 420px;
+  background-color: #1C1C1C;
+  background-image: url('./images/block_fon2.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.use_cases_block_2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+footer {
+  background-color: #1C1C1C;
+}
+
+footer .logo {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.footer_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  gap: 30px;
+}
+
+.contact_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  gap: 30px;
+}
+
+.social_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 184px;
+  height: 52px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+
+.social {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  height: 60px;
+
+
+  background-color: #1A1A1A;
+  border-radius: 100px;
+}
+
+.policy {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+  width: 400px;
+  height: 50px;
+  margin-top: 16px;
+}
+
+.footer_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 260px;
+  height: 50px;
+}
+
+.policy .vertical_line {
+  border-left: 1px solid #B3B3B3;
+  height: 27px;
+}
