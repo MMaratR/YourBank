@@ -28,7 +28,7 @@ export const getOne = async (req, res) => {
       //   result: 'Success',
       //   row: row,
       // });
-      res.json(rows)
+      res.json(row)
     } else {
       res.json({
         result: 'Post not found',
