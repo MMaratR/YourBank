@@ -19,7 +19,7 @@ export const PostsPage = () => {
           {/* <Link to={`/posts/${post.id}`}> */}
           <h2>{post.title}</h2>
           {/* </Link> */}
-          <img src={post.image} alt='post.image' />
+          <img class='post_img' src={post.image} alt='post.image' />
           <p>{post.text}</p>
         </li>
       ))}
